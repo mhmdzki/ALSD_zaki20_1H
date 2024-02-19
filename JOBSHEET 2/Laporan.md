@@ -78,7 +78,7 @@ secara berurutan? Jelaskan alasannya!
 Jawaban
 1. <img src= "image-8.png">
 2. kode tersebut membuat object baru berupa bk2 dari kelas Buku21, dan nilai atributnya diisi langsung saat pembuatan objectmenggunakan konstruktor berparameter
-3. kode akan eror dan tidak bisa di run
+3. kode akan eror dan tidak bisa di run, karena konstruktor default diperlukan untuk inisialisasi objek
 4. tidak, karena ada beberapa alasan yaitu:
     A. Method dalam sebuah class bersifat independen satu sama lain. 
     B. Method hanya menjalankan fungsionalitas yang telah didefinisikan di dalamnya. Method tidak saling tergantung satu sama lain.
