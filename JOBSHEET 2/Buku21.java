@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Buku21 {
 
-    public static void main(String[] args) {
         String judul, pengarang;
         int halaman, stok, harga;
 
@@ -14,14 +13,13 @@ public class Buku21 {
             System.out.println("harga: " + harga);
             
         }
-        void terjual(int jml);{
+        public void terjual(int jml) {
             stok -=jml;
         }
-        void restock(int jml);{
+        void restock(int jml){
             stok +=jml;
         }
-        void gantiHarga(int hrg);{
+        void gantiHarga(int hrg) {
             harga = hrg;
-        }
-    }
+        }    
 }
