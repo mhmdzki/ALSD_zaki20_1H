@@ -87,3 +87,24 @@ Jawaban
     E. urutan pemanggilan method bersifat fleksibel dan tergantung logically program yang ingin dibuat. 
 5. <img src= "image-9.png">
 6. -
+
+## Latihan Praktikum
+
+1. Membuat sistem pada class Buku21 dengan menambah 3 method seperti foto class diagaram dibawah
+<img src= "image-10.png">
+
+Jawaban
+
+Menambah beberapa method dalam Buku21 dengan perincian
+1. <img src= "image-11.png">
+2. <img src= "image-12.png">
+3. <img src= "image-13.png)>
+
+Sehingga menghasilkan output seperti berikut
+<img src= "image-14.png">
+
+2. Buat program berdasarkan class diagram berikut ini!
+<img src= "image-15.png">
+
+Jawaban
+
