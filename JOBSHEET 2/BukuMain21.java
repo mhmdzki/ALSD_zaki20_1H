@@ -10,16 +10,19 @@ public class BukuMain21 {
         bk1.harga = 71000;
     
         bk1.tampilInformasi();
+        System.out.println();
         bk1.terjual(5);
         bk1.gantiHarga(60000);
         bk1.tampilInformasi();
         
         Buku21 bk2 = new Buku21("Self Reward", "Mahera Ayesha",160, 29,59000);
         bk2.terjual(11);
+        System.out.println();
         bk2.tampilInformasi();
 
         Buku21 bk3 = new Buku21("M Zaki", "Muhammad Zaki",280, 59,80000);
         bk3.terjual(20);
+        System.out.println();
         bk3.tampilInformasi();
     }
 }
