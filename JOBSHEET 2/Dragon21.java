@@ -4,36 +4,35 @@ public class Dragon21 {
     
     void moveLeft(){
         x -= 1;
-        if (x < 0) {
+        if (x < 0 || x > width) {
             detectCollision();
         }
     }
     
     void moveRight(){
         x += 1;
-        if (x > width) {
+        if (x < 0 || x > width) {
             detectCollision();
         }
     }
     
     void moveUp(){
         y -= 1;
-        if (y > 0) {
+        if (y < 0 || y > height) {
             detectCollision();
         }
     }
     
     void moveDown(){
         y += 1;
-        if (y > 0) {
+        if (y < 0 || y > height) {
             detectCollision();
         }
     }
     
     void printPosition(){
         System.out.print("your position now");
-        System.out.println("(" + x + "," +y+ ")");
-        
+        System.out.println("(" + x + "," +y+ ")");    
     }
 
     void detectCollision(){
