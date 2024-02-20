@@ -20,7 +20,7 @@ public class DragonMain21 {
         while (x >  0 || x < width || y >  0 || y < height) {
             System.out.println("move where ? (L/R/U/D)");
             key.nextLine ();
-            move = key.next ().charAt (0);
+            move = key.next (). toUpperCase(). charAt (0);
 
             switch (move) {
                 case 'L':

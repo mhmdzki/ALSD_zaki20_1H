@@ -8,10 +8,10 @@ Kode Program
 Hasil Running
 <img src= "image-1.png">
 
- Pertanyaan 
-1. Sebutkan dua karakteristik class atau object! 
+ Pertanyaan
+1. Sebutkan dua karakteristik class atau object!
 2. Perhatikan class Buku pada Praktikum 1 tersebut, ada berapa atribut yang dimiliki oleh class 
-Buku? Sebutkan apa saja atributnya! 
+Buku? Sebutkan apa saja atributnya!
 3. Ada berapa method yang dimiliki oleh class tersebut? Sebutkan apa saja methodnya! 
 4. Perhatikan method terjual() yang terdapat di dalam class Buku. Modifikasi isi method tersebut 
 sehingga proses pengurangan hanya dapat dilakukan jika stok masih ada (lebih besar dari 0)! 
@@ -45,7 +45,7 @@ Hasil Running
 <img src= "image-4.png">
 
 Pertanyaan
-1. Pada class BukuMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! 
+1. Pada class BukuMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi!
 Apa nama object yang dihasilkan? 
 2. Bagaimana cara mengakses atribut dan method dari suatu objek? 
 3. Mengapa hasil output pemanggilan method tampilInformasi() pertama dan kedua berbeda?
@@ -66,25 +66,25 @@ Hasil Running
 
 Pertanyaan
 1. Pada class Buku di Percobaan 3, tunjukkan baris kode program yang digunakan untuk 
-mendeklarasikan konstruktor berparameter! 
+mendeklarasikan konstruktor berparameter!
 2. Perhatikan class BukuMain. Apa sebenarnya yang dilakukan pada baris program berikut?  
 3. Hapus konstruktor default pada class Buku, kemudian compile dan run program. Bagaimana 
-hasilnya? Jelaskan mengapa hasilnya demikian! 
+hasilnya? Jelaskan mengapa hasilnya demikian!
 4. Setelah melakukan instansiasi object, apakah method di dalam class Buku harus diakses 
-secara berurutan? Jelaskan alasannya! 
+secara berurutan? Jelaskan alasannya!
 5. Buat object baru dengan nama buku<NamaMahasiswa> menggunakan konstruktor berparameter dari class Buku! 
-6. Commit dan push kode program ke Github 
+6. Commit dan push kode program ke Github
 
 Jawaban
 1. <img src= "image-8.png">
 2. kode tersebut membuat object baru berupa bk2 dari kelas Buku21, dan nilai atributnya diisi langsung saat pembuatan objectmenggunakan konstruktor berparameter
 3. kode akan eror dan tidak bisa di run, karena konstruktor default diperlukan untuk inisialisasi objek
 4. tidak, karena ada beberapa alasan yaitu:
-    A. Method dalam sebuah class bersifat independen satu sama lain. 
+    A. Method dalam sebuah class bersifat independen satu sama lain.
     B. Method hanya menjalankan fungsionalitas yang telah didefinisikan di dalamnya. Method tidak saling tergantung satu sama lain.
     D. Urutan eksekusi method tergantung pada desain program dan logika bisnis yang ingin diimplementasikan.
     D. Urutannya tidak harus sesuai deklarasi method di dalam class.
-    E. urutan pemanggilan method bersifat fleksibel dan tergantung logically program yang ingin dibuat. 
+    E. urutan pemanggilan method bersifat fleksibel dan tergantung logically program yang ingin dibuat.
 5. <img src= "image-9.png">
 6. -
 
@@ -107,4 +107,3 @@ Sehingga menghasilkan output seperti berikut
 <img src= "image-15.png">
 
 Jawaban
-
