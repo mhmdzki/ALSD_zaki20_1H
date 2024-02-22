@@ -98,7 +98,7 @@ Jawaban
 Menambah beberapa method dalam Buku21 dengan perincian
 1. <img src= "image-11.png">
 2. <img src= "image-12.png">
-3. <img src= "image-13.png)>
+3. <img src= "image-13.png">
 
 Sehingga menghasilkan output seperti berikut
 <img src= "image-14.png">
@@ -107,3 +107,24 @@ Sehingga menghasilkan output seperti berikut
 <img src= "image-15.png">
 
 Jawaban
+
+Kode program Dragon21 Dan DragonMain21
+
+<img src= "P2 Dragon alsd.png">
+<img src= "P2 DragonMain alsd.png">
+
+Output
+
+<img src= "image-16.png">
+
+Penjelasan
+
+Dragon21.java
+Dragon21.java adalah kelas yang berisi logic untuk objek Dragon. Terdapat variabel untuk posisi X dan Y, width dan height arena, serta method untuk menggerakkan dragon ke kiri, kanan, atas, bawah. Juga terdapat method untuk mendeteksi collision dan print posisi dragon.
+
+DragonMain21.java
+DragonMain21.java adalah kelas Main program yang menginisiasi objek Dragon21 dan memanggil method-methodnya. Terdapat game loop untuk terus menerima input pengguna untuk menggerakkan dragon. Loop akan berhenti jika dragon collision terdeteksi.
+
+Dragon21.java berisi logic untuk objek dragon, sedangkan DragonMain21.java adalah driver class untuk menjalankan program game sederhana dengan memanggil objek Dragon21.
+
+Kedua kelas saling berhubungan karena DragonMain21 membuat objek Dragon21 dan memanggil method-methodnya untuk menggerakkan dragon dan mencetak posisinya. Dragon21 sendiri mengimplementasikan logic pergerakan dragon.
