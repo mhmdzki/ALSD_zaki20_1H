@@ -9,7 +9,7 @@ kode Program
 
 Hasil Running
 
-<img src= "ArrayObjects20/image-2.png">
+<img src= "image-12.png">
 
 Pertanyaan
 1. Berdasarkan uji coba 3.2, apakah class yang akan dibuat array of object harus selalu memiliki
@@ -95,4 +95,4 @@ Jawaban
 <img src= "image-9.png">
 
 2. <img src= "image-11.png">
-3. 
+3.
