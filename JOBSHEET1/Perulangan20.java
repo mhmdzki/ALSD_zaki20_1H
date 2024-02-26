@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Perulangan21 {
+public class Perulangan20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         long n = 0, nim;

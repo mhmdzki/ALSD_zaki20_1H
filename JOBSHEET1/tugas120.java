@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tugas121 {
+public class tugas120 {
     public static void main(String[] args) {
         // Array pertama berisi kode plat mobil
         char[] KODE = { 'A', 'B', 'D', 'E', 'F', 'G', 'H', 'L', 'N', 'T' };

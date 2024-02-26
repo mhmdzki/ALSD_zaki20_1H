@@ -1,4 +1,4 @@
-public class Fungsi21 {
+public class Fungsi20 {
     public static void main(String[] args) {
         int[][] stok = {{10, 5, 15, 7}, {6, 11, 9, 12}, {2, 10, 10, 5}, {5, 7, 12, 9}};
 

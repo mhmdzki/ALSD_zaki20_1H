@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Array21 {
+public class Array20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double nilSetara, totNil = 0, ipSMT = 0;
