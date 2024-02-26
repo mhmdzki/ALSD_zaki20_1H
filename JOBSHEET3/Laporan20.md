@@ -25,7 +25,10 @@ Jawaban
 1. Tidak, class yang akan dibuat array of object tidak harus selalu memiliki atribut dan method sekaligus karena:
     a. Class yang hanya berisi atribut saja tetap bisa dibuat array of object-nya.
     b. Class yang hanya berisi method saja, tanpa ada atribut, juga tetap bisa dibuat array of object-nya
-2. 
+2. Tidak, Karena hal terssebut sudah seharusnya dilakukan ketika instansiasi meskipun tidak memiliki konstruktor
+3. Kode yang digunakan untuk melakukan instansiasi objek
+4. Kode yang digunakan untuk melakukan deklrasi objek
+5. pemisahan ini mengikuti prinsip desain yang baik dalam OOP yaitu pemilahan tugas dan reusability class
 
 ## Percobaan 2: Menerima Input Isian Array Menggunakan Looping
 
@@ -46,7 +49,10 @@ dibawah ini akan memunculkan error saat dijalankan. Mengapa?
 pada ppArray[i] sekaligus ppArray[0]?Jelaskan 
 
 Jawaban
-1. 
+1. Bisa, karena array of object sama sepert implementasi array
+2. PresegiPanjang[][] ppArray = new PresegiPanjang[i][j];
+3. Kodenya akan eror dikarenakan tidak ada instansiasi
+4. 
 
 ## Percobaan 3
 
