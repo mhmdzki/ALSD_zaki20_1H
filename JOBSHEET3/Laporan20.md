@@ -25,8 +25,8 @@ konstruktur pada baris program berikut :
 
 Jawaban
 1. Tidak, class yang akan dibuat array of object tidak harus selalu memiliki atribut dan method sekaligus karena:
-    a. Class yang hanya berisi atribut saja tetap bisa dibuat array of object-nya.
-    b. Class yang hanya berisi method saja, tanpa ada atribut, juga tetap bisa dibuat array of object-nya
+    - Class yang hanya berisi atribut saja tetap bisa dibuat array of object-nya.
+    - Class yang hanya berisi method saja, tanpa ada atribut, juga tetap bisa dibuat array of object-nya
 2. Tidak, Karena hal terssebut sudah seharusnya dilakukan ketika instansiasi meskipun tidak memiliki konstruktor
 3. Kode yang digunakan untuk melakukan instansiasi objek
 4. Kode yang digunakan untuk melakukan deklrasi objek
@@ -96,4 +96,4 @@ Jawaban
 
 2. 
 > <img src= "image-11.png">
-3.
+3. 
