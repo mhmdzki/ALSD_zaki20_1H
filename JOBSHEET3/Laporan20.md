@@ -78,6 +78,7 @@ pertanyaan
 > <img src= "image-10.png">
    Tambahkan konstruktor pada class Segitiga tersebut yang berisi parameter int a, int t
    yang masing-masing digunakan untuk mengisikan atribut alas dan tinggi.
+   
 3. Tambahkan method hitungLuas() dan hitungKeliling() pada class Segitiga
    tersebut. Asumsi segitiga adalah segitiga siku-siku. (Hint: Anda dapat menggunakan bantuan
    library Math pada Java untuk mengkalkulasi sisi miring)
