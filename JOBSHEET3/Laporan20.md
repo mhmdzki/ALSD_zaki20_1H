@@ -3,10 +3,12 @@
 ## Percobaan 1:  Membuat Array dari Object, Mengisi dan Menampilkan
 
 kode Program
+
 <img src= "image.png">
 <img src= "image-1.png">
 
 Hasil Running
+
 <img src= "ArrayObjects20/image-2.png">
 
 Pertanyaan
@@ -33,9 +35,11 @@ Jawaban
 ## Percobaan 2: Menerima Input Isian Array Menggunakan Looping
 
 Kode Program :
+
 <img src= "image-2.png">
 
 Hasil Running :
+
 <img src= "image-3.png">
 
 Pertanyaan
@@ -52,8 +56,43 @@ Jawaban
 1. Bisa, karena array of object sama sepert implementasi array
 2. PresegiPanjang[][] ppArray = new PresegiPanjang[i][j];
 3. Kodenya akan eror dikarenakan tidak ada instansiasi
-4. 
+4. System.out.print("Berapa banyak persegi panjang ? : ");
+   int i = sc.nextInt();
+   PresegiPanjang[] ppArray = new PresegiPanjang[i];
+5. Boleh, karena dalam ppArray[i] berupa looping sehingga instansiasi sebenarnya sudah dilakukan
 
 ## Percobaan 3
 
-Kode Program 
+Kode Program :
+
+<img src= "image-5.png">
+<img src= "image-7.png">
+
+Hasil Running :
+
+<img src= "image-8.png">
+
+pertanyaan
+1. Dapatkah konstruktor berjumlah lebih dalam satu kelas? Jelaskan dengan contoh!
+2. Jika diketahui terdapat class Segitiga seperti berikut ini:
+    <img src= "image-10.png">
+   Tambahkan konstruktor pada class Segitiga tersebut yang berisi parameter int a, int t
+   yang masing-masing digunakan untuk mengisikan atribut alas dan tinggi.
+3. Tambahkan method hitungLuas() dan hitungKeliling() pada class Segitiga
+   tersebut. Asumsi segitiga adalah segitiga siku-siku. (Hint: Anda dapat menggunakan bantuan
+   library Math pada Java untuk mengkalkulasi sisi miring)
+4. Pada fungsi main, buat array Segitiga sgArray yang berisi 4 elemen, isikan masing-masing
+   atributnya sebagai berikut:
+    sgArray ke-0 alas: 10, tinggi: 4
+    sgArray ke-1 alas: 20, tinggi: 10
+    sgArray ke-2 alas: 15, tinggi: 6
+    sgArray ke-3 alas: 25, tinggi: 10
+5. Kemudian menggunakan looping, cetak luas dan keliling dengan cara memanggil method
+   hitungLuas() dan hitungKeliling().
+
+Jawaban
+1. Bisa, didalam satu class dapat memuat banyk konstuktor, contoh
+<img src= "image-9.png">
+
+2. <img src= "image-11.png">
+3. 
