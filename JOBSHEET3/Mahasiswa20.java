@@ -5,5 +5,5 @@ public class Mahasiswa20 {
     public int Nim;
     public double IPK;
 
-
+    
 }

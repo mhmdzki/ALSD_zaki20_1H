@@ -133,6 +133,17 @@ proses tersebut)
 Jawaban
 
 1. 
-2.
+2. 
 main 
-> <img src= "![alt text](mainTugas2.png)">
+
+> <img src= "mainTugas2.png">
+
+class
+
+> <img src= "image-18.png">
+
+Output
+
+> <img src= "image-19.png">
+
+3. 
