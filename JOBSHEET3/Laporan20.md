@@ -133,3 +133,6 @@ proses tersebut)
 Jawaban
 
 1. 
+2.
+main 
+> <img src= "![alt text](mainTugas2.png)">
