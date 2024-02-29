@@ -8,7 +8,7 @@ public class mainMhs20 {
 
         Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < Mhs.length; i++) {
             Mhs[i] = new Mahasiswa20();
             System.out.println("Masukkan data Mahasiswa ke- :" + (i+1));
             System.out.print("Masukkan nama : ");
@@ -33,5 +33,11 @@ public class mainMhs20 {
             System.out.println("Jenis kelamin : " + Mhs[i].jenisKelamin);
             System.out.println("IPK : " + Mhs[i].IPK);
         }
+
+        Mahasiswa20 jumlah = new Mahasiswa20();
+        double rata2 = jumlah.hitungRata2(Mhs);
+        System.out.println("Rata-rata IPK Mahasiswa : " + rata2);
+        double juara = jumlah.cariRank1(Mhs);
+        System.out.println("Rank 1 Mahasiswa : " + juara);
     }
 }
