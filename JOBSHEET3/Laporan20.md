@@ -111,12 +111,11 @@ Pertanyaan
 
 1. Buatlah program yang dapat menghitung luas permukaan dan volume bangun ruang kerucut,
 limas segi empat sama sisi, dan bola. Buatlah 3 (tiga) class sesuai dengan jumlah jenis bangun
-ruang. Buatlah satu main class untuk membuat array of objects yang menginputkan atributatribut yang ada menggunakan konstruktor semua bangun ruang tersebut. Dengan ketentuan,
+ruang. Buatlah satu main class untuk membuat array of objects yang menginputkan atributatribut yang ada menggunakan konstruktor semua bangun ruang tersebut. Dengan ketentuan:
 - Buat looping untuk menginputkan masing-masing atributnya, kemudian tampilkan
 luas permukaan dan volume dari tiap jenis bangun ruang tersebut.
 - Pada kerucut, inputan untuk atribut hanya jari-jari dan sisi miring
-- Pada limas segi empat sama sisi, inputan untuk atribut hanya panjang sisi alas dan
-tinggi limas
+- Pada limas segi empat sama sisi, inputan untuk atribut hanya panjang sisi alas dan tinggi limas
 - Pada bola, inpuntan untuk atribut hanya jari-jari
 
 2. Sebuah kampus membutuhkan program untuk menampilkan informasi mahasiswa berupa nama,
@@ -133,6 +132,26 @@ proses tersebut)
 Jawaban
 
 1. 
+main
+
+> <img src= "mainTugas1.png">
+
+class bola
+
+> <img src= "image-23.png">
+
+class kerucut
+
+> <img src= "image-24.png">
+
+class limas segi empat
+
+> <img src= "image-28.png">
+
+output
+
+> <immg src= "image-27.png">
+
 2. 
 main 
 
