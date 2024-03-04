@@ -23,15 +23,7 @@ public class Buku21 {
             
     }
 
-    void tampilHasil(){
-        System.out.println("judul: " + judul);
-        System.out.println("pengarang:" + pengarang);
-        System.out.println("halaman:" + halaman);
-        System.out.println("stok:" + stok);
-        System.out.println("harga: Rp" + harga);
-    }
-
-     public void terjual(int jml) {
+    public void terjual(int jml) {
         if(jml < stok){
         stok -=jml;
         }else if (stok == 0) {
