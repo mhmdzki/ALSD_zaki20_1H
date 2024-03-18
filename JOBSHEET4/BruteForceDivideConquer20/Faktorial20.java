@@ -5,8 +5,8 @@ public class Faktorial20 {
 
     int faktorialBF (int n) {
         int fakto = 1;
-        for (int i = 1; i <=n; i++){
-            fakto = fakto * 1;
+        for (int i = n; i > 0; i--){
+            fakto *= i;
         }
         return fakto;
     }
@@ -15,8 +15,7 @@ public class Faktorial20 {
             return 1;
         }
         else {
-            int fakto = n * faktorialDC(n - 1);
-            return fakto;
+            return n * faktorialDC(n - 1);
         }
     }
 }
