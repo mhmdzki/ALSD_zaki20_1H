@@ -52,8 +52,7 @@ public class MainShowroom20 {
                     System.out.print("Masukkan power untuk mobil ke-" + (i + 1) + " : ");
                     variant.power[i] = sc.nextDouble();
                 }
-                System.out
-                        .println("Rata-rata power dari mobil-mobil tersebut adalah : " + variant.Ratarata(variant.power));
+                System.out.println("Rata-rata power dari mobil-mobil tersebut adalah : " + variant.Ratarata(variant.power));
 
                 break;
         }
