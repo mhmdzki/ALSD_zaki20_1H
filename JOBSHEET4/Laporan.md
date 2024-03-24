@@ -86,3 +86,12 @@ Jawaban
 2. Sebagai pembagi dan nilai tengah
 3. 
 > <img src = "image-12.png">
+
+# Tugas
+Kode program
+
+> <img src = "showroom.png">
+
+main
+
+> <img scr = "Mainshowroom.png">
