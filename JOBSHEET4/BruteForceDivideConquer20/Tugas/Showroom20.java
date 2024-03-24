@@ -1,16 +1,16 @@
 package JOBSHEET4.BruteForceDivideConquer20.Tugas;
 
-public class Mobil20 {
+public class Showroom20 {
     double variant, power[];
     int accel[];
 
-    Mobil20(int variant) {
+    Showroom20(int variant) {
         this.variant = variant;
         this.power = new double[variant];
         this.accel = new int[variant];
     }
 
-    double rerata(double arr[]) {
+    double Ratarata(double arr[]) {
         double total = 0;
         for (int i = 0; i < this.variant; i++) {
             total += arr[i];

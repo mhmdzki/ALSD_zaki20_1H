@@ -2,17 +2,17 @@ package JOBSHEET4.BruteForceDivideConquer20.Tugas;
 
 import java.util.Scanner;
 
-public class MainMobil20 {
+public class MainShowroom20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Masukkan jumlah mobil : ");
         int x = sc.nextInt();
-        Mobil20 variant = new Mobil20(x);
+        Showroom20 variant = new Showroom20(x);
 
         System.out.println("================================");
 
-        System.out.print("Apa yang ingin Anda hitung?(1 = Accel tertinggi, 2 = Accel terendah, 3 = Rerata power) : ");
+        System.out.print("Apa yang ingin Anda hitung?(1 = Acceleration tertinggi, 2 = Acceleration terendah, 3 = Rata-rata power) : ");
         int pilihan = sc.nextInt();
 
         switch (pilihan) {
