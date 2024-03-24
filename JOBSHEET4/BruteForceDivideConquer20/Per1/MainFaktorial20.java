@@ -1,4 +1,5 @@
-package JOBSHEET4.BruteForceDivideConquer20;
+package JOBSHEET4.BruteForceDivideConquer20.Per1;
+
 import java.util.Scanner;
 
 public class MainFaktorial20 {
@@ -25,5 +26,6 @@ public class MainFaktorial20 {
             System.out.println("Hasil perhitungan faktorial menggunakan Devide and Conquer adalah "
             + fk[i].faktorialDC(fk[i].nilai));
         }
+        System.out.println("------------------------------------------------------------------------");
     }
 }

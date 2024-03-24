@@ -1,4 +1,4 @@
-package JOBSHEET4.BruteForceDivideConquer20;
+package JOBSHEET4.BruteForceDivideConquer20.Per1;
 
 public class Faktorial20 {
     public int nilai;
