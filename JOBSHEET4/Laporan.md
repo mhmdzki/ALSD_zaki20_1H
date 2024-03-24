@@ -94,4 +94,4 @@ Kode program
 
 main
 
-> <img scr = "Mainshowroom.png">
+> <img src = "Mainshowroom.png">
