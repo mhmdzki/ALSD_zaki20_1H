@@ -53,7 +53,7 @@ public class MainShowroom20 {
                     variant.power[i] = sc.nextDouble();
                 }
                 System.out
-                        .println("Rata-rata power dari mobil-mobil tersebut adalah : " + variant.rerata(variant.power));
+                        .println("Rata-rata power dari mobil-mobil tersebut adalah : " + variant.Ratarata(variant.power));
 
                 break;
         }
