@@ -58,4 +58,31 @@ Jawaban
 1. PangkatBF() adalah metode perhitungan perpangkatan yang menggunakan pendekatan brute force dengan melakukan perkalian berulang sebanyak n kali, sehingga kompleksitas waktunya adalah O(n). Sementara itu, PangkatDC() menggunakan teknik divide and conquer dengan memecah perpangkatan menjadi submasalah yang lebih kecil dan menggabungkan hasilnya, sehingga memiliki kompleksitas waktu yang lebih baik, yaitu O(log n), yang menjadikannya lebih efisien untuk nilai n yang besar dibandingkan PangkatBF().
 2. Tidak, dalam metode divide and conquer yang dilakukan adalah pembagian angka pangkat akan tetapi tiak dipisah(dilakukan oprasi ditiap bagiannya).
 > <img src = "image-7.png">
+3. > <immg src = "image-8.png">
+4. > <img src = "image-9.png">
+
+# Percobaan 3
+
+Kode Program
+
+> <img src = "image-10.png">
+
+Main
+
+> <img src = "mainsum.png">
+
+vertifikasi kode program
+
+> <img src = "image-11.png">
+
+Pertanyaan
+1. Mengapa terdapat formulasi return value berikut?Jelaskan!
+2. Kenapa dibutuhkan variable mid pada method TotalDC()?
+3. Program perhitungan keuntungan suatu perusahaan ini hanya untuk satu perusahaan saja. Bagaimana cara menghitung sekaligus keuntungan beberapa bulan untuk beberapa
+perusahaan.(Setiap perusahaan bisa saja memiliki jumlah bulan berbeda-beda)? Buktikan dengan program!
+
+Jawaban
+1. untuk menjumlahkan masing masing nilai setelah menjadi total keuntungan perusahaan
+2. Sebagai pembagi dan nilai tengah
 3. 
+> <img src = "image-12.png">

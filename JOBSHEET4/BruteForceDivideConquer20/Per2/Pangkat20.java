@@ -4,6 +4,11 @@ import java.util.Scanner;
 public class Pangkat20 {
     public int nilai, pangkat;
 
+    Pangkat20 (int angka, int pangkat) {
+        this.nilai = angka;
+        this.pangkat = pangkat;
+    }
+
     int pangkatBF(int a, int n) {
         int hasil = 1;
         for(int i = 0; i < n; i++) {
