@@ -37,3 +37,29 @@ Jawaban
 - Syarat j < listMhs.length - i digunakan untuk mengoptimalkan proses perbandingan dan pertukaran elemen, dengan menghindari perbandingan elemen yang sudah terurut pada putaran sebelumnya. 
 - Jika terdapat 50 data dalam listMhs, perulangan i akan berlangsung sebanyak 50 kali, dan terdapat 50 tahap Bubble Sort yang ditempuh untuk mengurutkan seluruh elemen secara descending berdasarkan nilai ipk.
 
+# Percobaan 2 :  Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Selection Sort
+
+Kode Program
+
+> <img src = "image-1.png">
+> <img src = "image-6.png">
+
+main
+
+> <img src = "image-7.png">
+
+vertifikasi hasik kode program
+
+> <img src = "image-4.png">
+> <img src = "image-8.png">
+
+Pertanyaan
+
+1. Di dalam method selection sort, terdapat baris program seperti di bawah ini:
+Untuk apakah proses tersebut, jelaskan!
+
+Jawaban
+
+1. Kode tersebut bertujuan untuk menemukan indeks dari elemen terkecil (dalam hal ini, Mahasiswa20 dengan ipk terkecil) dalam bagian array yang belum diurutkan.
+
+# Percobaan3 : Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort
