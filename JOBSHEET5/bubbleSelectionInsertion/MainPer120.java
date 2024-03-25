@@ -26,5 +26,9 @@ public class MainPer120 {
         System.out.println("Data mahasiswa setelah sorting asc berdasarkan ipk");
         list.selestionSort();
         list.tampil();
+
+        System.out.println("Data mahasiswa setelah sorting asc berdasarkan ipk");
+        list.insertionSort();
+        list.tampil();
     }
 }

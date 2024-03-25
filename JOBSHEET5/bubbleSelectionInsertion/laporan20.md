@@ -63,3 +63,25 @@ Jawaban
 1. Kode tersebut bertujuan untuk menemukan indeks dari elemen terkecil (dalam hal ini, Mahasiswa20 dengan ipk terkecil) dalam bagian array yang belum diurutkan.
 
 # Percobaan3 : Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort
+
+Kode Program
+
+> <img src = "image-1.png">
+> <img src = "image-9.png">
+
+main
+
+> <img src = "image-10.png">
+
+vertifikasi hasil kode program
+
+> <img src = "image-4.png">
+> <img src = "image-11.png">
+
+Pertanyaan
+
+1. Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara descending.
+
+jawaban
+
+1. 

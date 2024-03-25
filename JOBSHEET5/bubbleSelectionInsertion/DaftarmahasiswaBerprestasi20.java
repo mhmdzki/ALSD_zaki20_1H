@@ -1,7 +1,5 @@
 package JOBSHEET5.bubbleSelectionInsertion;
 
-import JOBSHEET3.mainMhs20;
-
 public class DaftarmahasiswaBerprestasi20 {
     Mahasiswa20 listMhs[] = new Mahasiswa20[5];
     int idx;
@@ -45,6 +43,17 @@ public class DaftarmahasiswaBerprestasi20 {
             Mahasiswa20 tmp = listMhs[idxMin];
             listMhs[idxMin] = listMhs[i];
             listMhs[i] = tmp;
+        }
+    }
+
+    void insertionSort() {
+        for (int i = 1; i < listMhs.length; i++) {
+            Mahasiswa20 temp = listMhs[i];
+            int j = i;
+            while (j > 0 && listMhs[j-1].ipk > temp.ipk) {
+                j--;
+            }
+            listMhs[j] = temp;
         }
     }
 }
