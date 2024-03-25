@@ -1,7 +1,7 @@
 package JOBSHEET5.bubbleSelectionInsertion;
 import java.util.Scanner;
 
-public class MainPer120 {
+public class Main20 {
     public static void main(String[] args) {
         DaftarmahasiswaBerprestasi20 list = new DaftarmahasiswaBerprestasi20();
         Mahasiswa20 m1 = new Mahasiswa20("Nusa", 2017, 25, 3);
