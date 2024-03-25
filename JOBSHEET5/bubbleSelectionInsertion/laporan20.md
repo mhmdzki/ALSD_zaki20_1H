@@ -85,3 +85,4 @@ Pertanyaan
 jawaban
 
 1. 
+> <img src = "image-12.png">
