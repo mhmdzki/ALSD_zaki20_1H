@@ -19,7 +19,7 @@ public class HotelService20 {
             System.out.println("------------------------------");
         }
     }
-void bbleSort2() {
+    void bbleSort2() {
         for (int i = 0; i < listRooms.length; i++) {
             for (int j = 1; j < listRooms.length; j++) {
                 if (listRooms[j].harga < listRooms[j-1].harga) {
