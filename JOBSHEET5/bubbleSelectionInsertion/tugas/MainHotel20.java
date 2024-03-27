@@ -20,6 +20,14 @@ public class MainHotel20 {
         System.out.println("Data hotel sebelum sorting : ");
         listRooms.tmpl();
 
+        System.out.println("Data hotel setelah sorting desc berdasarkan harga");
+        listRooms.bbleSort2();
+        listRooms.tmpl();
+
+        System.out.println("Data hotel setelah sorting asc berdasarkan harga");
+        listRooms.slstnSort2();
+        listRooms.tmpl();
+
         System.out.println("Data hotel setelah sorting desc berdasarkan bintang");
         listRooms.bbleSort();
         listRooms.tmpl();
