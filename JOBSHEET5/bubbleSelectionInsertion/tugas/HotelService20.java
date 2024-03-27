@@ -1,48 +1,48 @@
 package JOBSHEET5.bubbleSelectionInsertion.tugas;
 
 public class HotelService20 {
-    Hotel20 rooms[] = new Hotel20[5];
+    Hotel20 listRooms[] = new Hotel20[5];
     int idx;
 
     void tambah (Hotel20 h) {
-        if (idx < rooms.length) {
-            rooms[idx] = h;
+        if (idx < listRooms.length) {
+            listRooms[idx] = h;
             idx++;
         } else {
             System.out.println("Data sudah penuh!!");
         }
     }
 
-    void tampil () {
-        for (Hotel20 h : rooms) {
+    void tmpl () {
+        for (Hotel20 h : listRooms) {
             h.tampil();
             System.out.println("------------------------------");
         }
     }
 
-    void bubbleSort() {
-        for (int i = 0; i < rooms.length; i++) {
-            for (int j = 1; j < rooms.length; j++) {
-                if (rooms[j].bintang > rooms[j-1].bintang) {
-                    Hotel20 tmp = rooms[j];
-                    rooms[j] = rooms[j-1];
-                    rooms[j-1] = tmp;
+    void bbleSort() {
+        for (int i = 0; i < listRooms.length; i++) {
+            for (int j = 1; j < listRooms.length; j++) {
+                if (listRooms[j].bintang > listRooms[j-1].bintang) {
+                    Hotel20 tmp = listRooms[j];
+                    listRooms[j] = listRooms[j-1];
+                    listRooms[j-1] = tmp;
                 }
             }
         }
     }
 
-    void selestionSort() {
-        for (int i = 0; i < rooms.length; i++) {
+    void slstnSort() {
+        for (int i = 0; i < listRooms.length; i++) {
             int idxMin = i;
-            for (int j = i+1; j < rooms.length; j++) {
-                if (rooms[j].bintang < rooms[idxMin].bintang) {
+            for (int j = i+1; j < listRooms.length; j++) {
+                if (listRooms[j].bintang < listRooms[idxMin].bintang) {
                     idxMin = j;
                 }
             }
-            Hotel20 tmp = rooms[idxMin];
-            rooms[idxMin] = rooms[i];
-            rooms[i] = tmp;
+            Hotel20 tmp = listRooms[idxMin];
+            listRooms[idxMin] = listRooms[i];
+            listRooms[i] = tmp;
         }
     }
 }
