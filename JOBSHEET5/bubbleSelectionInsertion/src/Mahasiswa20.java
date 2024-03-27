@@ -1,4 +1,4 @@
-package JOBSHEET5.bubbleSelectionInsertion;
+package JOBSHEET5.bubbleSelectionInsertion.src;
 
 public class Mahasiswa20 {
     String nama;
