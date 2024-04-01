@@ -1,4 +1,4 @@
-package JOBSHEET5.bubbleSelectionInsertion.src;
+package JOBSHEET5.src;
 
 public class DaftarmahasiswaBerprestasi20 {
     Mahasiswa20 listMhs[] = new Mahasiswa20[5];

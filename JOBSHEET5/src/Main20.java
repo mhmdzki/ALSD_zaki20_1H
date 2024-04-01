@@ -1,4 +1,4 @@
-package JOBSHEET5.bubbleSelectionInsertion.src;
+package JOBSHEET5.src;
 import java.util.Scanner;
 
 public class Main20 {
