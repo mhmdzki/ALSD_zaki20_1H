@@ -1,26 +1,23 @@
 package JOBSHEET6.TestSearching20;
 
 public class Buku20 {
-    int kodeBuku;
-    int tahunPenerbit;
-    int stock;
-    String judulBuku;
-    String pengarang;
+    int kodeBuku, tahunTerbit, stok;
+    String judul, pengarang;
 
-    Buku20 (int kodeBuku, int tahunPenerbit, int stock, String judulBuku, String pengarang) {
-        kodeBuku = kodeBuku;
-        tahunPenerbit = tahunPenerbit;
-        stock = stock;
-        judulBuku = judulBuku;
-        pengarang = pengarang;
+    Buku20(int kodeBuku, String judul, int tahunTerbit, String pengarang, int stok) {
+        this.kodeBuku = kodeBuku;
+        this.judul = judul;
+        this.tahunTerbit = tahunTerbit;
+        this.pengarang = pengarang;
+        this.stok = stok;
     }
-     
+
     public void tampilDataBuku() {
-        System.out.println("=========================");
-        System.out.println("Ode Buku :" + kodeBuku);
-        System.out.println("Judul Buku :" + judulBuku);
-        System.out.println("Tahun Penerbit :" + tahunPenerbit);
-        System.out.println("Pengarang ;" + pengarang);
-        System.out.println("Stock :" + stock);
+        System.out.println("==================================");
+        System.out.println("Kode Buku : " + kodeBuku);
+        System.out.println("Judul Buku : " + judul);
+        System.out.println("Tahun Terbit : " + tahunTerbit);
+        System.out.println("Pengarang : " + pengarang);
+        System.out.println("Stok : " + stok);
     }
 }
