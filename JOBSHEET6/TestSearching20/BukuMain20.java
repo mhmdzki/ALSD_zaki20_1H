@@ -31,15 +31,16 @@ public class BukuMain20 {
         System.out.println("=======================================");
         // System.out.println("Data keseluruhan Mahasiswa : ");
 
-        System.out.println("=======================================");
         System.out.println("Data keselutruhan Buku : ");
         data.tampilDataBuku();
 
         System.out.println("=======================================");
-        System.out.println("=======================================");
         System.out.println("Pencarian Data : ");
-        System.out.println("Kode Buku : ");
+        System.out.println("=======================================");
+        System.out.println("Masukkan kode Buku : ");
         int cari = s.nextInt();
+
+        System.out.println("=======================================");
         System.out.println("menggunakan sequential Search");
         int posisi = data.FindSeqSearch(cari);
         data.tampilPosisi(cari, posisi);
@@ -49,12 +50,5 @@ public class BukuMain20 {
         posisi = data.FindBinarySearch(cari, 0, jumBuku -1);
         data.tampilPosisi(cari, posisi);
         data.TampilData(cari, posisi);
-
-        System.out.println("=======================================");
-        System.out.println("=======================================");
-        data.TampilData(cari, posisi);
-
-        Buku20 dataBuku20 = data.FindBuku(cari);
-        dataBuku20.tampilDataBuku();
     }
 }

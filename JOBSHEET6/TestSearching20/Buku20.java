@@ -1,8 +1,9 @@
 package JOBSHEET6.TestSearching20;
 
 public class Buku20 {
-    int kodeBuku, tahunTerbit, stok;
+    int kodeBuku, tahunTerbit, stok, idx;
     String judul, pengarang;
+    Buku20 lisBuku20[] = new Buku20[5];
 
     Buku20(int kodeBuku, String judul, int tahunTerbit, String pengarang, int stok) {
         this.kodeBuku = kodeBuku;
