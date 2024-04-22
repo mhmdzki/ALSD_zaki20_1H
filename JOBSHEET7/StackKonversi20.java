@@ -1,3 +1,4 @@
+package JOBSHEET7;
 public class StackKonversi20 {
    
     int size;

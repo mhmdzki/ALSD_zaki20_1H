@@ -1,3 +1,4 @@
+package JOBSHEET7;
 import java.util.Scanner;
 public class Utama20 {
 

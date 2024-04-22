@@ -1,3 +1,5 @@
+package JOBSHEET7;
+
 public class Gudang20 {
     
     Barang20[] tumpukan;

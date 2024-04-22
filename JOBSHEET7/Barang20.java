@@ -1,3 +1,4 @@
+package JOBSHEET7;
 public class Barang20 {
 
     int kode;
