@@ -1,7 +1,7 @@
 package UTS20.sorting;
 
 public class DaftarPerusahaan20 {
-    Perusahaan20 listPrshn[] = new Perusahaan20[16];
+    Perusahaan20 listPrshn[] = new Perusahaan20[17];
     int idx;
 
     void tambah (Perusahaan20 p) {

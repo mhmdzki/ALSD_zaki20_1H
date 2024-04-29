@@ -1,7 +1,7 @@
 package UTS20.sorting.searching;
 
 public class PencarianPerusahaan {
-    Perusahaan[] listPrshn = new Perusahaan[16];
+    Perusahaan[] listPrshn = new Perusahaan[17];
     int idx;
 
     void tambahPerusahaan(Perusahaan m) {
@@ -62,7 +62,7 @@ public class PencarianPerusahaan {
         }
     }
 
-    public Perusahaan FindBuku(int cari) {
+    public Perusahaan FindPerusahaan(int cari) {
         int posisi = -1;
         for (int i = 0; i < listPrshn.length; i++) {
             if (listPrshn[i].keuntungan == cari) {

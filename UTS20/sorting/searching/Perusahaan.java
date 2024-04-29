@@ -5,7 +5,7 @@ import UTS20.sorting.Perusahaan20;
 public class Perusahaan {
     String perusahaanKe;
     int keuntungan, idx;
-    Perusahaan20 lisPrshn[] = new Perusahaan20[16];
+    Perusahaan20 lisPrshn[] = new Perusahaan20[17];
 
     Perusahaan (String perusahaanKe, int kentungan) {
         this.perusahaanKe = perusahaanKe;
