@@ -43,7 +43,7 @@ public class Gudang20 {
             Barang20 delete = tumpukan[top];
             top--;
             System.out.print("Barang " + delete.nama + "diambil dari Gudang.");
-            System.out.println("Kode unik dalam biner: " + konversiDesimalKeBiner(delete.kode));
+            // System.out.println("Kode unik dalam biner: " + konversiDesimalKeBiner(delete.kode));
             return delete;
         } else {
             System.out.println("Tumpukan barang kosong.");

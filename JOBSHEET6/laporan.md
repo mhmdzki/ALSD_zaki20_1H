@@ -1,4 +1,4 @@
-## jobsheet 5
+## jobsheet 6
 
 # Percobaan 1 : Searching / Pencarian Menggunakan Agoritma Sequential Search
 

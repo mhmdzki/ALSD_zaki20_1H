@@ -4,7 +4,9 @@ public class Utama20 {
 
     static Scanner s = new Scanner(System.in);
     public static void main(String[] args) {
-        Gudang20 gudang = new Gudang20(7);
+        System.out.print("Masukkan kapasitas gudang: ");
+            int size = s.nextInt();
+            Gudang20 gudang = new Gudang20(size);
 
         while (true) {
             System.out.println("\nMenu");
