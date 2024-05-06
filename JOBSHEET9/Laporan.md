@@ -20,3 +20,17 @@ Jawaban
 - Metode insertAt(int index, int input): Variabel temp digunakan untuk menyimpan referensi node saat ini dalam iterasi untuk mencari node sebelum indeks yang ditentukan.
 3. Kode if(temp.next.next == null){ tail = temp.next; } digunakan untuk memperbarui nilai variabel tail dalam linked list ketika node baru yang ditambahkan menjadi node terakhir dalam linked list.
 
+# 2 Modifikasi Elemen pada Single Linked List
+
+verifikasi kode program
+
+> <img src = "image-1.png">
+
+Pertanyaan
+1. Mengapa digunakan keyword break pada fungsi remove? Jelaskan!
+2. Jelaskan kegunaan kode dibawah pada method remove
+
+Jawaban
+
+1. Keyword break digunakan dalam fungsi remove(int key) untuk keluar dari perulangan while setelah node yang ingin dihapus ditemukan dan dihapus dari linked list.
+2. 
