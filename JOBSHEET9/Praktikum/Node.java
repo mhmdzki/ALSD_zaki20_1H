@@ -1,4 +1,4 @@
-package JOBSHEET9;
+package JOBSHEET9.Praktikum;
 
 public class Node {
     int data;
