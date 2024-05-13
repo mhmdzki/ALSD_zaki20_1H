@@ -1,4 +1,4 @@
-package JOBSHEET9.Praktikum;
+package JOBSHEET10.Praktikum;
 
 public class SLLMain {
     public static void main(String[] args) {

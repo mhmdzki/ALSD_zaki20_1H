@@ -1,4 +1,4 @@
-package JOBSHEET8.Praktikum1;
+package JOBSHEET9.Praktikum1;
 
 import java.util.Queue;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package JOBSHEET9.Praktikum;
+package JOBSHEET10.Praktikum;
 
 public class SingleLinkedList {
     Node head, tail;

@@ -1,4 +1,4 @@
-package JOBSHEET8.Tugas;
+package JOBSHEET9.Tugas;
 
 public class queue {
     Pembeli20 data[];

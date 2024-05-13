@@ -1,4 +1,4 @@
-package JOBSHEET9.Tugas;
+package JOBSHEET10.Tugas;
 
 public class SingleLinkedList {
     Mhs head, tail;
