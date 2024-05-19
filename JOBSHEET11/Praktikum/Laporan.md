@@ -89,4 +89,9 @@ Pertanyaan
 
 Jawaban
 
-1. 
+1. Method size() hanya mengembalikan nilai dari variabel size yang menyimpan jumlah node yang ada di dalam doubly linked list. Pada setiap operasi penambahan atau penghapusan node, variabel size akan diperbarui sesuai dengan jumlah node yang ada.
+2. Mengatur indeks pada double linked list agar dimulai dari indeks ke-1:
+Secara default, indeks pada linked list dimulai dari 0. Namun, untuk mengatur agar indeks dimulai dari 1, kita dapat mengubah logika pada method-method yang terkait dengan indeks, seperti add(int item, int index), remove(int index), dan get(int index). Pada setiap method tersebut, kita dapat mengurangi nilai index dengan 1 sebelum digunakan dalam operasi pada linked list.
+3. Perbedaan karakteristik fungsi Add pada Double Linked List dan Single Linked List:
+Pada Double Linked List, fungsi Add memiliki kemampuan untuk menambahkan node baru di awal, akhir, atau di indeks tertentu dengan lebih efisien karena setiap node memiliki referensi ke node sebelumnya dan node sesudahnya. Sedangkan pada Single Linked List, fungsi Add hanya dapat menambahkan node baru di awal atau akhir dengan efisien, namun untuk menambahkan node di indeks tertentu, operasi tersebut memerlukan iterasi dari awal atau akhir hingga mencapai indeks yang diinginkan, yang dapat menjadi tidak efisien jika ukuran linked list besar.
+4. perbedaannya ada pada bagaimana jalan kedua prograamnya meskipun sama sama untuk mencari tau  apakah kosong tapi jika a mencari true dan flase tetrlebih dahulu sedangkan yang b langsung
