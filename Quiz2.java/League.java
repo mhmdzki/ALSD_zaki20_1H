@@ -1,8 +1,8 @@
 class League {
     private Team head;
 
-    public void addTeam(String nama) {
-        Team newTeam = new Team(nama);
+    public void addTeam(String name) {
+        Team newTeam = new Team(name);
         if (head == null) {
             head = newTeam;
         } else {
@@ -22,25 +22,44 @@ class League {
             team1.matchesPlayed++;
             team2.matchesPlayed++;
 
+            team1.setsWon += team1Score;
+            team1.setsLost += team2Score;
+            team2.setsWon += team2Score;
+            team2.setsLost += team1Score;
+
+            team1.scores += team1Score;
+            team2.scores += team2Score;
+
             if (team1Score > team2Score) {
-                team1.wins++;
-                team1.points += 3;
-                team2.losses++;
-            } else if (team1Score < team2Score) {
-                team2.wins++;
-                team2.points += 3;
-                team1.losses++;
+                if (team1Score == 3 && team2Score < 2) {
+                    team1.wins3_0_3_1++;
+                    team1.points += 3;
+                } else {
+                    team1.wins3_2++;
+                    team1.points += 2;
+                    team2.losses2_3++;
+                    team2.points += 1;
+                }
+                team2.losses1_3_0_3++;
             } else {
-                team1.points++;
-                team2.points++;
+                if (team2Score == 3 && team1Score < 2) {
+                    team2.wins3_0_3_1++;
+                    team2.points += 3;
+                    team1.losses1_3_0_3++;
+                } else {
+                    team2.wins3_2++;
+                    team2.points += 2;
+                    team1.losses2_3++;
+                    team1.points += 1;
+                }
             }
         }
     }
 
-    private Team findTeam(String nama) {
+    private Team findTeam(String name) {
         Team current = head;
         while (current != null) {
-            if (current.nama.equals(nama)) {
+            if (current.name.equals(name)) {
                 return current;
             }
             current = current.next;
@@ -81,7 +100,9 @@ class League {
             return left;
         }
 
-        if (left.points >= right.points) {
+        if (left.points > right.points || 
+            (left.points == right.points && left.getSetRatio() > right.getSetRatio()) || 
+            (left.points == right.points && left.getSetRatio() == right.getSetRatio() && left.getScoreRatio() > right.getScoreRatio())) {
             result = left;
             result.next = sortedMerge(left.next, right);
         } else {
@@ -105,20 +126,23 @@ class League {
     }
 
     public void printStandings() {
-        System.out.println("Klasemen Proliga Voli Indonesia tahun 2022:");
-        System.out.println("-------------------------------------------------------------------------------");
-        System.out.printf("| %-4s | %-17s | %-9s | %-6s | %-6s | %-6s |\n", "Rank", "\t\tTim", "Game", "Menang", "Kalah", "Poin");
-        System.out.println("-------------------------------------------------------------------------------");
+        System.out.println("Hasil Klasemen Proliga Voli Indonesia Tahun 2022:");
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------");
+        System.out.println("| Pos |             Tim               | Main | M 3-0/3-1 | M 3-2 | K 2-3 | K 1-3/ 0-3 | Poin | Rasio Set | Rasio Skor |");
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------");
         Team current = head;
         int rank = 1;
         while (current != null) {
-            System.out.printf("| %-4d | %-30s | %-9d | %-6d | %-6d | %-6d |\n",
-                    rank, current.nama, current.matchesPlayed, current.wins, current.losses, current.points);
+            System.out.printf("| %-3d | %-29s | %-4d | %-9d | %-5d | %-5d | %-10d | %-4d | %-9s | %-10s |\n",
+                    rank, current.name, current.matchesPlayed, current.wins3_0_3_1, current.wins3_2,
+                    current.losses2_3, current.losses1_3_0_3, current.points,
+                    current.getSetRatioString(), current.getScoreRatioString());
             current = current.next;
             rank++;
+            System.out.println("-----------------------------------------------------------------------------------------------------------------------");
         }
-        System.out.println("-------------------------------------------------------------------------------");
     }
+    
 
     public void printBestPlayers() {
         System.out.println("\nPemain Terbaik:");
