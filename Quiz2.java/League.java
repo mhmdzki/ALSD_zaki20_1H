@@ -92,12 +92,12 @@ public class League {
 
         System.out.println("\n************************************** KLASEMEN IBL **************************************");
         System.out.println("----------------------------------------------------------------------------------------");
-        System.out.printf("| %-4s | %-18s | %-6s | %-6s | %-6s | %-6s | %-6s |\n", "Rank", "Tim", "Game", "Menang", "Seri", "Kalah", "Poin");
+        System.out.printf("| %-4s | %-18s | %-6s | %-6s | %-6s | %-6s | %-6s |\n", "Rank", "\t\tTim", "Game", "Menang", "Seri", "Kalah", "Poin");
         System.out.println("----------------------------------------------------------------------------------------");
 
         int rank = 1;
         for (Team team : teams) {
-            System.out.printf("| %-4d | %-18s | %-6d | %-6d | %-6d | %-6d | %-6d |\n", rank, team.name, team.matchesPlayed, team.wins, team.draws, team.losses, team.points);
+            System.out.printf("| %-4d | %-31s | %-6d | %-6d | %-6d | %-6d | %-6d |\n", rank, team.name, team.matchesPlayed, team.wins, team.draws, team.losses, team.points);
             rank++;
         }
 
